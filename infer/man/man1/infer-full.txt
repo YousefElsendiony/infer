@@ -1478,7 +1478,7 @@ INTERNAL OPTIONS
            Set --specs-library to the empty list.
 
        --sqlite-vfs string
-           VFS for SQLite
+           VFS for SQLite (default: unix-excl)
 
        --sqlite-vfs-reset
            Cancel the effect of --sqlite-vfs.

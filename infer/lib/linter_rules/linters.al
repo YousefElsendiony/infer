@@ -146,6 +146,20 @@ DEFINE-CHECKER STRONG_DELEGATE_WARNING = {
 
 };
 
+DEFINE-CHECKER COMS_6156_TEST = {
+
+  LET name_contains_test = declaration_has_name(REGEXP("InferingFirmware"));
+
+  SET report_when =
+	    WHEN
+				name_contains_test
+			HOLDS-IN-NODE VarDecl;
+
+  SET message = "This is the sample error that we injected for Infering Firmware";
+  SET suggestion = "This is just a test, relax! In the future we can let our code have this string :)!";
+
+};
+
 DEFINE-CHECKER GLOBAL_VARIABLE_INITIALIZED_WITH_FUNCTION_OR_METHOD_CALL = {
 
   LET is_global_but_not_const_variable =
