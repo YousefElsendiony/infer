@@ -544,6 +544,19 @@ let is_qual_type_const an =
   | _ ->
       false
 
+let is_qual_type_volatile an =
+  match an with
+  | Ctl_parser_types.Stmt s -> (
+    match Clang_ast_proj.get_expr_tuple s with
+    | Some (_, _, ei) ->
+        ei.Clang_ast_t.ei_qual_type.qt_is_volatile
+    | _ ->
+        false )
+  | Ctl_parser_types.Decl (Clang_ast_t.VarDecl (_, _, qt, _)) ->
+      qt.qt_is_volatile
+  | _ ->
+      false
+
 
 let objc_class_has_only_one_constructor_method_named an re =
   let open Clang_ast_t in

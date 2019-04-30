@@ -177,6 +177,13 @@ DEFINE-CHECKER COMS_6156_TEST = {
 
 
 
+DEFINE-CHECKER COMS_6156_VOLATILE_NAMING = {
+  SET report_when = WHEN
+        is_qual_type_volatile()
+    HOLDS-IN-NODE VarDecl;
+
+  SET message = "Marking all Volatile variables.";
+};
 
 DEFINE-CHECKER GLOBAL_VARIABLE_INITIALIZED_WITH_FUNCTION_OR_METHOD_CALL = {
 

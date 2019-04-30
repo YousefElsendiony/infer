@@ -1012,6 +1012,8 @@ let rec eval_Atomic pred_name_ args an lcxt =
       CPredicates.is_init_integral_constant_expr an
   | "is_qual_type_const", [], an ->
       CPredicates.is_qual_type_const an
+  | "is_qual_type_volatile", [], an ->
+      CPredicates.is_qual_type_volatile an
   | "has_init_list_const_expr", [], an ->
       CPredicates.has_init_list_const_expr an
   | "is_decl", [], an ->

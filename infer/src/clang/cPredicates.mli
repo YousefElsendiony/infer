@@ -54,6 +54,9 @@ val is_init_integral_constant_expr : Ctl_parser_types.ast_node -> bool
 val is_qual_type_const : Ctl_parser_types.ast_node -> bool
 (** 'is_qual_type_const an' is true iff an is a qual_type 'const' expression *)
 
+val is_qual_type_volatile : Ctl_parser_types.ast_node -> bool
+(** 'is_qual_type_volatile an' is true iff an is a qual_type 'volatile' expression *)
+
 val has_init_list_const_expr : Ctl_parser_types.ast_node -> bool
 (** 'has_init_list_const_expr' is true iff for an InitListExpr where all subexpressions are const expression *)
 
