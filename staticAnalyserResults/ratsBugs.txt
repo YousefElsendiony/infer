@@ -1,0 +1,423 @@
+Entries in perl database: 33
+Entries in ruby database: 46
+Entries in python database: 62
+Entries in c database: 334
+Entries in php database: 55
+Analyzing argconfig.c
+Analyzing Documentation/asciidoctor-extensions.rb
+Analyzing fabrics.c
+Analyzing json.c
+Analyzing nvme.c
+Analyzing nvme-ioctl.c
+Analyzing nvme-lightnvm.c
+Analyzing nvme-models.c
+Analyzing nvme-print.c
+Analyzing parser.c
+Analyzing plugin.c
+Analyzing plugins/intel/intel-nvme.c
+Analyzing plugins/micron/micron-nvme.c
+Analyzing plugins/lnvm/lnvm-nvme.c
+Analyzing plugins/seagate/seagate-nvme.c
+Analyzing plugins/wdc/wdc-nvme.c
+Analyzing plugins/wdc/wdc-utils.c
+Analyzing plugins/toshiba/toshiba-nvme.c
+Analyzing plugins/huawei/huawei-nvme.c
+Analyzing plugins/netapp/netapp-nvme.c
+Analyzing plugins/memblaze/memblaze-nvme.c
+Analyzing suffix.c
+Analyzing tests/nvme_compare_test.py
+Analyzing tests/nvme_simple_template_test.py
+Analyzing tests/nvme_test_logger.py
+Analyzing tests/nvme_id_ns_test.py
+Analyzing tests/nvme_read_write_test.py
+Analyzing tests/nvme_fw_log_test.py
+Analyzing tests/nvme_test.py
+Analyzing tests/nvme_id_ctrl_test.py
+Analyzing tests/nvme_smart_log_test.py
+Analyzing tests/nvme_attach_detach_ns_test.py
+Analyzing tests/nvme_flush_test.py
+Analyzing tests/nvme_format_test.py
+Analyzing tests/nvme_writeuncor_test.py
+Analyzing tests/nvme_writezeros_test.py
+Analyzing tests/nvme_error_log_test.py
+Analyzing tests/nvme_create_max_ns_test.py
+Analyzing tests/nvme_test_io.py
+Analyzing tests/nvme_get_features_test.py
+argconfig.c:93: High: fixed size local buffer
+fabrics.c:194: High: fixed size local buffer
+fabrics.c:488: High: fixed size local buffer
+fabrics.c:511: High: fixed size local buffer
+fabrics.c:636: High: fixed size local buffer
+fabrics.c:901: High: fixed size local buffer
+fabrics.c:962: High: fixed size local buffer
+fabrics.c:1005: High: fixed size local buffer
+fabrics.c:1064: High: fixed size local buffer
+nvme.c:1264: High: fixed size local buffer
+nvme.c:1282: High: fixed size local buffer
+nvme.c:1312: High: fixed size local buffer
+nvme.c:1505: High: fixed size local buffer
+nvme.c:1582: High: fixed size local buffer
+nvme.c:1631: High: fixed size local buffer
+nvme.c:1700: High: fixed size local buffer
+nvme.c:1771: High: fixed size local buffer
+nvme.c:1793: High: fixed size local buffer
+nvme.c:4901: High: fixed size local buffer
+nvme-lightnvm.c:39: High: fixed size local buffer
+nvme-models.c:118: High: fixed size local buffer
+nvme-models.c:284: High: fixed size local buffer
+nvme-models.c:285: High: fixed size local buffer
+nvme-models.c:286: High: fixed size local buffer
+nvme-models.c:287: High: fixed size local buffer
+nvme-models.c:288: High: fixed size local buffer
+nvme-print.c:43: High: fixed size local buffer
+nvme-print.c:757: High: fixed size local buffer
+nvme-print.c:853: High: fixed size local buffer
+nvme-print.c:1220: High: fixed size local buffer
+nvme-print.c:1482: High: fixed size local buffer
+nvme-print.c:1850: High: fixed size local buffer
+nvme-print.c:2067: High: fixed size local buffer
+nvme-print.c:2068: High: fixed size local buffer
+nvme-print.c:2099: High: fixed size local buffer
+nvme-print.c:2177: High: fixed size local buffer
+nvme-print.c:2250: High: fixed size local buffer
+nvme-print.c:2439: High: fixed size local buffer
+nvme-print.c:2471: High: fixed size local buffer
+nvme-print.c:2472: High: fixed size local buffer
+nvme-print.c:2499: High: fixed size local buffer
+nvme-print.c:2500: High: fixed size local buffer
+nvme-print.c:2558: High: fixed size local buffer
+nvme-print.c:2721: High: fixed size local buffer
+nvme-print.c:2749: High: fixed size local buffer
+plugin.c:22: High: fixed size local buffer
+plugin.c:126: High: fixed size local buffer
+plugins/intel/intel-nvme.c:63: High: fixed size local buffer
+plugins/intel/intel-nvme.c:64: High: fixed size local buffer
+plugins/intel/intel-nvme.c:274: High: fixed size local buffer
+plugins/intel/intel-nvme.c:645: High: fixed size local buffer
+plugins/seagate/seagate-nvme.c:383: High: fixed size local buffer
+plugins/seagate/seagate-nvme.c:384: High: fixed size local buffer
+plugins/seagate/seagate-nvme.c:502: High: fixed size local buffer
+plugins/seagate/seagate-nvme.c:656: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:352: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:354: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:355: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:356: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:357: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:358: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:390: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:616: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:812: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:1346: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:1630: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:1631: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:1791: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:1856: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:1982: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:3322: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:3324: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:3325: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:3326: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:3327: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:3335: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:3612: High: fixed size local buffer
+plugins/wdc/wdc-nvme.c:3613: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:50: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:55: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:56: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:74: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:171: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:214: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:245: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:246: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:322: High: fixed size local buffer
+plugins/huawei/huawei-nvme.c:386: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:63: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:70: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:71: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:72: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:146: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:246: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:247: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:248: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:276: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:308: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:309: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:311: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:312: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:464: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:513: High: fixed size local buffer
+plugins/netapp/netapp-nvme.c:583: High: fixed size local buffer
+plugins/memblaze/memblaze-nvme.c:127: High: fixed size local buffer
+Extra care should be taken to ensure that character arrays that are allocated
+on the stack are used safely.  They are prime targets for buffer overflow
+attacks.
+
+argconfig.c:98: High: sprintf
+argconfig.c:100: High: sprintf
+argconfig.c:102: High: sprintf
+argconfig.c:109: High: sprintf
+argconfig.c:111: High: sprintf
+fabrics.c:656: High: sprintf
+fabrics.c:662: High: sprintf
+fabrics.c:669: High: sprintf
+fabrics.c:704: High: sprintf
+fabrics.c:731: High: sprintf
+nvme.c:1286: High: sprintf
+nvme.c:1289: High: sprintf
+nvme.c:1710: High: sprintf
+nvme-print.c:2070: High: sprintf
+nvme-print.c:2727: High: sprintf
+nvme-print.c:2733: High: sprintf
+nvme-print.c:2763: High: sprintf
+plugin.c:40: High: sprintf
+plugin.c:42: High: sprintf
+plugin.c:137: High: sprintf
+plugin.c:139: High: sprintf
+plugins/intel/intel-nvme.c:605: High: sprintf
+plugins/seagate/seagate-nvme.c:446: High: sprintf
+plugins/seagate/seagate-nvme.c:451: High: sprintf
+plugins/seagate/seagate-nvme.c:455: High: sprintf
+plugins/seagate/seagate-nvme.c:460: High: sprintf
+plugins/seagate/seagate-nvme.c:464: High: sprintf
+plugins/seagate/seagate-nvme.c:469: High: sprintf
+plugins/seagate/seagate-nvme.c:473: High: sprintf
+plugins/seagate/seagate-nvme.c:478: High: sprintf
+plugins/seagate/seagate-nvme.c:482: High: sprintf
+plugins/seagate/seagate-nvme.c:487: High: sprintf
+plugins/seagate/seagate-nvme.c:555: High: sprintf
+plugins/seagate/seagate-nvme.c:566: High: sprintf
+plugins/seagate/seagate-nvme.c:577: High: sprintf
+plugins/seagate/seagate-nvme.c:588: High: sprintf
+plugins/seagate/seagate-nvme.c:599: High: sprintf
+plugins/seagate/seagate-nvme.c:685: High: sprintf
+plugins/seagate/seagate-nvme.c:693: High: sprintf
+plugins/wdc/wdc-nvme.c:627: High: sprintf
+plugins/wdc/wdc-nvme.c:631: High: sprintf
+plugins/wdc/wdc-nvme.c:655: High: sprintf
+plugins/wdc/wdc-nvme.c:659: High: sprintf
+plugins/huawei/huawei-nvme.c:250: High: sprintf
+plugins/netapp/netapp-nvme.c:113: High: sprintf
+plugins/netapp/netapp-nvme.c:278: High: sprintf
+Check to be sure that the format string passed as argument 2 to this function
+call does not come from an untrusted source that could have added formatting
+characters that the code is not prepared to handle.  Additionally, the format
+string could contain `%s' without precision that could result in a buffer
+overflow.
+
+argconfig.c:396: High: strcpy
+nvme.c:1760: High: strcpy
+plugins/huawei/huawei-nvme.c:124: High: strcpy
+Check to be sure that argument 2 passed to this function call will not copy
+more data than can be handled, resulting in a buffer overflow.
+
+fabrics.c:421: High: printf
+nvme.c:4394: High: printf
+nvme.c:4395: High: printf
+nvme.c:4396: High: printf
+nvme.c:4836: High: printf
+nvme.c:4837: High: printf
+nvme-print.c:679: High: printf
+nvme-print.c:680: High: printf
+nvme-print.c:681: High: printf
+nvme-print.c:1157: High: printf
+nvme-print.c:1163: High: printf
+nvme-print.c:1166: High: printf
+nvme-print.c:1194: High: printf
+nvme-print.c:1195: High: printf
+nvme-print.c:1208: High: printf
+nvme-print.c:1238: High: printf
+nvme-print.c:1453: High: printf
+nvme-print.c:1466: High: printf
+nvme-print.c:1532: High: printf
+nvme-print.c:1539: High: printf
+nvme-print.c:1786: High: printf
+nvme-print.c:1787: High: printf
+nvme-print.c:1856: High: printf
+nvme-print.c:1939: High: printf
+nvme-print.c:1940: High: printf
+nvme-print.c:1941: High: printf
+nvme-print.c:2028: High: printf
+nvme-print.c:3060: High: printf
+nvme-print.c:3145: High: printf
+nvme-print.c:3175: High: printf
+nvme-print.c:3176: High: printf
+nvme-print.c:3179: High: printf
+nvme-print.c:3180: High: printf
+nvme-print.c:3195: High: printf
+nvme-print.c:3200: High: printf
+nvme-print.c:3213: High: printf
+nvme-print.c:3214: High: printf
+nvme-print.c:3219: High: printf
+nvme-print.c:3229: High: printf
+nvme-print.c:3238: High: printf
+nvme-print.c:3263: High: printf
+plugins/intel/intel-nvme.c:182: High: printf
+plugins/intel/intel-nvme.c:185: High: printf
+plugins/intel/intel-nvme.c:193: High: printf
+plugins/intel/intel-nvme.c:196: High: printf
+plugins/intel/intel-nvme.c:202: High: printf
+plugins/intel/intel-nvme.c:205: High: printf
+plugins/intel/intel-nvme.c:212: High: printf
+plugins/intel/intel-nvme.c:215: High: printf
+plugins/intel/intel-nvme.c:218: High: printf
+plugins/intel/intel-nvme.c:221: High: printf
+plugins/intel/intel-nvme.c:325: High: printf
+plugins/intel/intel-nvme.c:326: High: printf
+plugins/intel/intel-nvme.c:327: High: printf
+plugins/intel/intel-nvme.c:328: High: printf
+plugins/intel/intel-nvme.c:329: High: printf
+plugins/intel/intel-nvme.c:330: High: printf
+plugins/intel/intel-nvme.c:331: High: printf
+plugins/intel/intel-nvme.c:332: High: printf
+plugins/seagate/seagate-nvme.c:440: High: printf
+plugins/seagate/seagate-nvme.c:618: High: printf
+plugins/seagate/seagate-nvme.c:624: High: printf
+plugins/seagate/seagate-nvme.c:628: High: printf
+plugins/seagate/seagate-nvme.c:632: High: printf
+plugins/seagate/seagate-nvme.c:637: High: printf
+plugins/seagate/seagate-nvme.c:642: High: printf
+plugins/seagate/seagate-nvme.c:646: High: printf
+plugins/wdc/wdc-nvme.c:2116: High: printf
+plugins/wdc/wdc-nvme.c:2118: High: printf
+plugins/wdc/wdc-nvme.c:2122: High: printf
+plugins/wdc/wdc-nvme.c:2124: High: printf
+plugins/wdc/wdc-nvme.c:2126: High: printf
+plugins/wdc/wdc-nvme.c:2130: High: printf
+plugins/wdc/wdc-nvme.c:2132: High: printf
+plugins/wdc/wdc-nvme.c:2134: High: printf
+plugins/wdc/wdc-nvme.c:2136: High: printf
+plugins/wdc/wdc-nvme.c:2140: High: printf
+plugins/wdc/wdc-nvme.c:2142: High: printf
+plugins/wdc/wdc-nvme.c:2144: High: printf
+plugins/wdc/wdc-nvme.c:2146: High: printf
+plugins/wdc/wdc-nvme.c:2148: High: printf
+plugins/wdc/wdc-nvme.c:2150: High: printf
+plugins/wdc/wdc-nvme.c:2152: High: printf
+plugins/wdc/wdc-nvme.c:2154: High: printf
+plugins/wdc/wdc-nvme.c:2158: High: printf
+plugins/wdc/wdc-nvme.c:2160: High: printf
+plugins/wdc/wdc-nvme.c:2164: High: printf
+plugins/wdc/wdc-nvme.c:2248: High: printf
+plugins/wdc/wdc-nvme.c:2250: High: printf
+plugins/wdc/wdc-nvme.c:2254: High: printf
+plugins/wdc/wdc-nvme.c:2256: High: printf
+plugins/wdc/wdc-nvme.c:2259: High: printf
+plugins/wdc/wdc-nvme.c:2261: High: printf
+plugins/wdc/wdc-nvme.c:2263: High: printf
+plugins/wdc/wdc-nvme.c:2265: High: printf
+plugins/wdc/wdc-nvme.c:2267: High: printf
+plugins/wdc/wdc-nvme.c:2269: High: printf
+plugins/wdc/wdc-nvme.c:2271: High: printf
+plugins/wdc/wdc-nvme.c:2273: High: printf
+plugins/wdc/wdc-nvme.c:2277: High: printf
+plugins/wdc/wdc-nvme.c:2279: High: printf
+plugins/wdc/wdc-nvme.c:2283: High: printf
+plugins/wdc/wdc-nvme.c:2285: High: printf
+plugins/wdc/wdc-nvme.c:2289: High: printf
+plugins/wdc/wdc-nvme.c:2291: High: printf
+plugins/wdc/wdc-nvme.c:2294: High: printf
+plugins/wdc/wdc-nvme.c:2296: High: printf
+plugins/wdc/wdc-nvme.c:2298: High: printf
+plugins/wdc/wdc-nvme.c:2300: High: printf
+plugins/wdc/wdc-nvme.c:2302: High: printf
+plugins/wdc/wdc-nvme.c:2370: High: printf
+plugins/wdc/wdc-nvme.c:2372: High: printf
+plugins/wdc/wdc-nvme.c:2374: High: printf
+plugins/wdc/wdc-nvme.c:2376: High: printf
+plugins/wdc/wdc-nvme.c:2378: High: printf
+plugins/wdc/wdc-nvme.c:2380: High: printf
+plugins/wdc/wdc-nvme.c:2382: High: printf
+plugins/wdc/wdc-nvme.c:2384: High: printf
+plugins/wdc/wdc-nvme.c:2386: High: printf
+plugins/wdc/wdc-nvme.c:2388: High: printf
+plugins/wdc/wdc-nvme.c:2390: High: printf
+plugins/wdc/wdc-nvme.c:2392: High: printf
+plugins/wdc/wdc-nvme.c:2394: High: printf
+plugins/wdc/wdc-nvme.c:2396: High: printf
+plugins/wdc/wdc-nvme.c:2398: High: printf
+plugins/wdc/wdc-nvme.c:2400: High: printf
+plugins/wdc/wdc-nvme.c:2402: High: printf
+plugins/wdc/wdc-nvme.c:2404: High: printf
+plugins/wdc/wdc-nvme.c:2406: High: printf
+plugins/wdc/wdc-nvme.c:2408: High: printf
+plugins/wdc/wdc-nvme.c:2410: High: printf
+plugins/wdc/wdc-nvme.c:2412: High: printf
+plugins/wdc/wdc-nvme.c:2820: High: printf
+plugins/wdc/wdc-nvme.c:3711: High: printf
+plugins/wdc/wdc-nvme.c:3713: High: printf
+plugins/wdc/wdc-nvme.c:3715: High: printf
+plugins/wdc/wdc-nvme.c:3717: High: printf
+plugins/netapp/netapp-nvme.c:291: High: printf
+plugins/netapp/netapp-nvme.c:350: High: printf
+plugins/memblaze/memblaze-nvme.c:140: High: printf
+plugins/memblaze/memblaze-nvme.c:142: High: printf
+Check to be sure that the non-constant format string passed as argument 1 to
+this function call does not come from an untrusted source that could have added
+formatting characters that the code is not prepared to handle.
+
+nvme.c:1214: High: fprintf
+nvme.c:1238: High: fprintf
+nvme.c:3124: High: fprintf
+nvme.c:3159: High: fprintf
+Check to be sure that the non-constant format string passed as argument 2 to
+this function call does not come from an untrusted source that could have added
+formatting characters that the code is not prepared to handle.
+
+nvme-models.c:259: High: getenv
+Environment variables are highly untrustable input. They may be of any length, and contain any data. Do not make any assumptions regarding content or length. If at all possible avoid using them, and if it is necessary, sanitize them and truncate them to a reasonable length.
+
+plugins/seagate/seagate-nvme.c:451: High: sprintf
+plugins/seagate/seagate-nvme.c:460: High: sprintf
+plugins/seagate/seagate-nvme.c:469: High: sprintf
+plugins/seagate/seagate-nvme.c:478: High: sprintf
+plugins/seagate/seagate-nvme.c:487: High: sprintf
+plugins/seagate/seagate-nvme.c:555: High: sprintf
+plugins/seagate/seagate-nvme.c:566: High: sprintf
+plugins/seagate/seagate-nvme.c:577: High: sprintf
+plugins/seagate/seagate-nvme.c:588: High: sprintf
+plugins/seagate/seagate-nvme.c:599: High: sprintf
+plugins/seagate/seagate-nvme.c:685: High: sprintf
+plugins/seagate/seagate-nvme.c:693: High: sprintf
+Check to be sure that the non-constant format string passed as argument 2 to
+this function call does not come from an untrusted source that could have added
+formatting characters that the code is not prepared to handle.
+
+plugins/wdc/wdc-nvme.c:1609: High: system
+plugins/wdc/wdc-nvme.c:3596: High: system
+Argument 1 to this function call should be checked to ensure that it does not
+come from an untrusted source without first verifying that it contains nothing
+dangerous.
+
+fabrics.c:212: Medium: read
+fabrics.c:1079: Medium: read
+nvme.c:1330: Medium: read
+nvme.c:1369: Medium: read
+nvme.c:1459: Medium: read
+nvme.c:2580: Medium: read
+nvme.c:3300: Medium: read
+nvme.c:3407: Medium: read
+nvme.c:3546: Medium: read
+nvme.c:4369: Medium: read
+nvme.c:4379: Medium: read
+nvme.c:4818: Medium: read
+nvme-models.c:234: Medium: read
+plugins/micron/micron-nvme.c:117: Medium: read
+plugins/wdc/wdc-nvme.c:640: Medium: read
+plugins/wdc/wdc-nvme.c:668: Medium: read
+plugins/memblaze/memblaze-nvme.c:422: Medium: read
+Check buffer boundaries if calling this function in a loop 
+and make sure you are not in danger of writing past the allocated space.
+
+json.c:211: Medium: realloc
+json.c:227: Medium: realloc
+Don't use on memory intended to be secure, because the old structure will not be zeroed out.
+
+nvme.c:1593: Medium: stat
+A potential TOCTOU (Time Of Check, Time Of Use) vulnerability exists.  This is
+the first line where a check has occured.
+The following line(s) contain uses that may match up with this check:
+1425 (scandir)
+
+Total lines analyzed: 23500
+Total time 0.019486 seconds
+1205994 lines per second
