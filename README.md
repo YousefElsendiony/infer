@@ -1,4 +1,20 @@
-# Infer [![Build Status](https://travis-ci.org/facebook/infer.svg?branch=master)](https://travis-ci.org/facebook/infer)
+# COMS 6156 Information
+
+## Installation Tips
+Found in Final Paper
+
+## Deliverables
+- Preliminary Proposal : Under Papers
+- Revised Proposal : Under Papers
+- Progress Report : Under Papers
+- Demo Movie : Under Movies
+- Final Report : Under Papers
+
+
+
+# Project Information From Infer Team
+
+## Infer [![Build Status](https://travis-ci.org/facebook/infer.svg?branch=master)](https://travis-ci.org/facebook/infer)
 
 [Infer](http://fbinfer.com/) is a static analysis tool for Java,
 C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
